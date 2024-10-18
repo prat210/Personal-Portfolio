@@ -1,0 +1,122 @@
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  
+  .about.left {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+    background-color: #3498db;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .about .left h1,
+  .about.left ul {
+    /* list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap; */
+    list-style: none;
+    padding:0;
+  }
+  .about.left ul{
+    list-style: none; 
+    /* padding: 0; */ 
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+    color: white;
+  }
+  
+  .about.left li {
+    margin: 10px; /* Adjust margin for spacing */
+    position: relative;
+    /* transform: translateX(-20px); */
+    opacity: 1;
+    transition:  opacity 0.5s ease;
+    /* text-align:center; */
+    /* color: white; */
+    text-align: center;
+    display:inline-block;
+
+}
+  
+  .about.left li::before {
+    content: '\2022';
+    color: #781c1c;
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  
+  .about.left li.visible {
+    /* transform: translateX(0); */
+    opacity: 1;
+    color: white;
+  }
+  
+  /* .about.right {
+    max-width: 700px;
+  }
+  
+  .right .img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .right .img {
+    max-width: 90%;
+    border: 1px solid #333;
+  }
+  
+  .right .top {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+  }
+  
+  .right .bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index: 5;
+  } */
+  
+  .education {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .education-item {
+    width: 200px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .education-item:hover {
+    opacity: 1;
+  }
